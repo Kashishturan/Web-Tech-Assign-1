@@ -22,7 +22,7 @@
         } */
 
         .container {
-            max-width: 800px;
+            width: 100%;
             margin: 0 auto;
             padding: 20px;
             background-color: rgb(235, 159, 187);
@@ -52,4 +52,5 @@
             display: flex;
             justify-content: space-evenly;
             margin-top: 25px;
+            width: 100%;
         }
