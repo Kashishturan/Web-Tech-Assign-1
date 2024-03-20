@@ -127,7 +127,6 @@ color: rgb(14, 54, 104);
 
 
 
-
 @media only screen and (max-width: 500px) {
     .one {
         flex-wrap: wrap; /* Allow items to wrap on smaller screens */

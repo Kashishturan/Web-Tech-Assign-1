@@ -4,6 +4,7 @@
     text-decoration: none;
     font-weight: bold;
     color: rgb(14, 54, 104);
+
 }
 .txt{
     color: rgb(14, 54, 104);
@@ -14,14 +15,13 @@
 }
 .header{
     display: flex;
-    gap: 300px;
+    gap: 70px;
     justify-content: space-evenly;
     margin-left: 0px;
   
 }
 .links{
     margin-top: 50px;
-    margin-top: 100px;
     margin-right: -400px;
 }
 
@@ -34,16 +34,48 @@ text-align: center;
     color: rgb(14, 54, 104);
     font-size: large;
 }
-.moi1{
-    border: 1px solid black;
+.moi1,.moi2,.moi3,.moi4,.moi5,.moi6{
+    border: 2px solid rgb(14, 54, 104);
+    width: fit-content;
+    border-radius: 5%;
 }
-.frow{
+.frow,.srow{
     display: flex;
-    gap: 250px;
+    gap: 150px;
     justify-content: space-evenly;
 }
 .logo{
-    margin-left: -250px;
+    margin-left: -510px;
 border-radius: 12%;
 margin-top: 20px;
+}
+.h1{
+    margin-left: -60px;
+    font-size: xxx-large;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+   padding: 40px;
+    justify-content: center;
+}
+.moi{
+    margin-left: -300px;
+}
+.srow{
+    margin-top:70px ;
+}
+button{
+    background-color: rgb(235, 175, 197);
+    margin-top: 7px;
+    padding: 7px 16px; 
+    font-size: large;
+    border-radius: 10%;
+}
+.p1,.p2,.p3,.p4{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 54, 104);
+
+}
+.frow{
+    margin-top: 80px;
 }
