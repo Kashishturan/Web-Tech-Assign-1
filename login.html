@@ -6,14 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login Page</title>
 <style>
-    
+    body{
+        background-image: url(https://i.pinimg.com/564x/95/db/b1/95dbb110ca5f27c193e3ae9902c4330d.jpg);
+        
+    }
     .container {
         max-width: 360px;
         margin: 100px auto;
         padding: 20px;
         background-color: #fff;
-        border-radius: 5px;
+        border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 150px;
     }
     input[type="text"],
     input[type="password"],
@@ -26,7 +30,7 @@
         box-sizing: border-box;
     }
     input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: lightblue;
         color: #fff;
         cursor: pointer;
     }
@@ -62,9 +66,6 @@
             return false;
         }
 
-        // You can add more validation rules here as needed
-
-        // Clear error message if validation passes
         errorMsg.innerText = '';
         return true;
     }

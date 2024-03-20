@@ -25,9 +25,14 @@
             width: 100%;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgb(235, 159, 187);
-            border-radius: 8px;
+            background-color: rgb(235, 210, 219);
+            
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+            align-items: center;
+        }
+        .img{
+            margin-top: 40px;
         }
 
         h1 {
@@ -52,5 +57,5 @@
             display: flex;
             justify-content: space-evenly;
             margin-top: 25px;
-            width: 100%;
+            width: 50;
         }
